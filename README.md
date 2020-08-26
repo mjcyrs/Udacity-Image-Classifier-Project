@@ -1,2 +1,2 @@
-# ImageClass8.12.20
+# Image Classifier Project
 Snapshot of project 
