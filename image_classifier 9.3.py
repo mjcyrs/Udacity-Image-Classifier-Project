@@ -98,7 +98,7 @@ else:
 
 # Train the classifier layers using backpropagation using the pre-trained network to get the features
 model.cuda()
-epochs = 10
+epochs = 12
 steps = 0
 print_every = 60
 running_loss = 0
@@ -112,7 +112,7 @@ for epoch in range(epochs):
         # zero the parameter gradients
         optimizer.zero_grad()
         
-        logps = model(images)
+        logps = model.forward(images)
         loss = criterion(logps, labels)
         loss.backward()
         optimizer.step()
