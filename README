@@ -1,5 +1,5 @@
 This is a repo for the code I wrote for Udacity's Image Classifier Project, which creates an image classifier application.
-This application can identify the correct category and matching name with at least 70% accuracy.
+This application can identify the correct category and matching name of an image with at least 70% accuracy.
 
 The code takes in user arguments to define and train a network (train.py).
 Once trained, a user can then add additional arguments, including an image file, to predict what kind of classification the image is of (predict.py).
