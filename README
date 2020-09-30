@@ -1,0 +1,13 @@
+This is a repo for the code I wrote for Udacity's Image Classifier Project, which creates an image classifier application.
+This application can identify the correct category and matching name with at least 70% accuracy.
+
+The code takes in user arguments to define and train a network (train.py).
+Once trained, a user can then add additional arguments, including an image file, to predict what kind of classification the image is of (predict.py).
+To be safe, the user can also input the number of top classes (topk) they want to see when running predict.py. It defaults to 5 classes, and will therefore show the top 5 predictions if no input is given.
+
+The arguments the user can put into a command line prompt are listed in get_input_args.py.
+
+The Image Classifier Project html and ipynb files contain all the functions written at the outset of the project.
+Some were used in the command line application section, some were not. These files mostly serve as a reference for everything written before the command line application, but are no necessary to use the application.
+
+The functions fo the classifier were written using Jupyter Notebooks.
